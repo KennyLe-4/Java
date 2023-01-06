@@ -1,5 +1,5 @@
 /*
-This is an Calculator that is used to become a master in math classes
+This is a Calculator that is used to become a master in math classes
 
 It was created by me, Kenny in 2023. When learning to code in Java.
 */
@@ -14,7 +14,7 @@ public class Calculator {
         return a + b;
     }
 
-    public int substract(int a, int b){
+    public int subtract(int a, int b){
         return a - b;
     }
 
@@ -35,7 +35,10 @@ public class Calculator {
 
         System.out.println(myCalculator.add(45,11));
 
-        System.out.println(myCalculator.substract(12,6));
+        System.out.println(myCalculator.divide(45,11));
+
+
+        System.out.println(myCalculator.subtract(12,6));
 
         System.out.println(myCalculator.multiply(12,6));
 
